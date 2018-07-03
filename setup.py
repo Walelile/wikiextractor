@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='wikiextractor',
-
+    packages=['wikiextractor'],
     description='A script that extracts and cleans text from a Wikipedia'
                 'database dump',
     author='Giuseppe Attardi',
@@ -17,5 +17,5 @@ setup(
 
     license="GPL 3.0",
     keywords=['text', 'nlp'],
-    scripts=['WikiExtractor.py']
+#    scripts=['WikiExtractor.py']
 )
